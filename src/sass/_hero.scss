@@ -1,0 +1,66 @@
+.hero{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1410px;
+    height: 687px;
+    background-color:rgba(0, 0, 0, 0.5); 
+
+}
+.hero__info{
+    margin: 0;
+    text-align: center;
+        width: 1410px;
+        height: 591px;
+        padding-top: 120px;
+        padding-right: 470px;
+        padding-bottom: 271px;
+        padding-left: 470px;
+
+        background-image: url(../images/children.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+.hero__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 24px;
+  
+}
+.hero__text{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 1.38;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+
+
+}
+.hero__button{
+    padding:16px 37px 21px 37px ;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        text-align: center;
+        letter-spacing: 0.11px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: none;
+        border: 1px solid #FFFFFF;  
+        cursor: pointer;
+}
+.hero__img{
+    position: absolute;
+    bottom: -44px;
+    left: 432px;
+}
