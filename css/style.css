@@ -1,3 +1,51 @@
-.product{
-    display: flex;
+
+h1,h2,h3,h4,h5,h6,p,a,li,ul{
+    margin: 0;
+    padding: 0;
 }
+
+.proposition{
+    position: relative;
+    width: 1440px;
+    height: 1179px;
+    background-image: url(../images/img-buttons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ .product{
+    position: absolute;
+    top:580px;
+    left:188px;
+    display: flex;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.22;
+color: #FFFFFF;
+} 
+
+.models{
+    position: absolute;
+    bottom: 85px;
+    left: 643px;
+}
+
+
+
+
+
+/* .hero{
+   background-color:#C4C4C4;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   margin-bottom: 94px;
+   width: 1600px;
+   background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../images/hero-img.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+} */
