@@ -1,0 +1,32 @@
+.wifi {
+  height: 480px;
+  min-width: 1440px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f7f7f7;
+  background-image: url(../images/children.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wifi__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  align-items: center;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 111px;
+  padding-right: 422px;
+  padding-left: 422px;
+}
+
+.wifi__button {
+  display: inline-block;
+  background-color: #2468ff;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 17px 37px 21px 37px;
+  border: transparent;
+  margin-top: 83px;
+}
