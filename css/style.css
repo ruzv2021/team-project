@@ -1,5 +1,14 @@
 
-h1,h2,h3,h4,h5,h6,p,a,li,ul{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ul{
     margin: 0;
     padding: 0;
 }
@@ -19,18 +28,79 @@ h1,h2,h3,h4,h5,h6,p,a,li,ul{
     top:580px;
     left:188px;
     display: flex;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 1.22;
-color: #FFFFFF;
+color: #FFFFFF; */
 } 
 
 .models{
     position: absolute;
     bottom: 85px;
     left: 643px;
+}
+.product__box{
+    width: 424px;
+    margin-right: 216px;
+}
+.product__name{
+    display: block;
+    min-width: 81px;
+    height: 21px;
+    background-color: FFFFFF;
+    border-radius: 18px;
+    border: transparent;
+    padding: 1px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.product__title{
+    margin-bottom: 13px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 1.22;
+color: #FFFFFF;
+
+}
+.product__text{
+    margin-bottom: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 1.14;
+color: #FFFFFF;
+
+}
+.product__info{
+    margin-bottom: 33px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.4;
+color: #FFFFFF;
+
+}
+.product__prise{
+margin-bottom: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.4;
+color: #FFFFFF;
+
 }
 
 
