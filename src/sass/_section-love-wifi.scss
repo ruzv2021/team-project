@@ -1,0 +1,135 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  background-color: var(--accent-color2);
+  color: var(--primary-title-color);
+}
+h1,
+h2,
+p,
+.list {
+  margin: 0;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.02;
+  color: #404040;
+  text-align: center;
+  margin-top: 117px;
+  margin-bottom: 123px;
+}
+
+.love-wifi__info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.item {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  color: #999999;
+}
+
+.item::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 25px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #999999;
+  color: #999999;
+}
+.love-wifi__item-active::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 25px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2468ff;
+  color: #2468ff;
+}
+
+.love-wifi__nav .link {
+  text-decoration: none;
+  color: #999999;
+  text-align: left;
+}
+.love-wifi__nav .link:hover {
+  color: #2468ff;
+  cursor: pointer;
+}
+
+.love-wifi__nav .link:hover .item::after {
+  background-color: #2468ff;
+  color: #2468ff;
+}
+.love-wifi__settings {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #404040;
+  text-align: left;
+  margin-right: 88px;
+  margin-bottom: 117px;
+  margin-left: 80px;
+}
+.love-wifi__text {
+  font-size: 36px;
+  line-height: 1.44;
+  margin-top: 36px;
+  margin-bottom: 28px;
+}
+
+.love-wifi__family,
+.love-wifi__address {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #646565;
+}
+.love-wifi__family {
+  margin-bottom: 14px;
+}
+.love-wifi__address {
+  margin-bottom: 30px;
+}
+
+.shop-button {
+  background-color: #2468ff;
+  color: #ffffff;
+  padding: 17px 37px 21px 37px;
+  border-color: transparent;
+  margin-bottom: 94px;
+}
