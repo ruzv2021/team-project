@@ -60,6 +60,11 @@
   color: #999999;
   text-align: left;
 }
+.love-wifi__nav .link-active {
+  text-decoration: none;
+  text-align: left;
+  color: #2468ff;
+}
 .love-wifi__nav .link:hover {
   color: #2468ff;
   cursor: pointer;
