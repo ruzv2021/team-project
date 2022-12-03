@@ -1,5 +1,8 @@
 .footer {
     background-color: #161F49;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
 }
 .container {
     width: 1440px;
@@ -10,4 +13,98 @@
 }
 .logo-footer {
     fill: #ffffff;
+    margin-bottom: 57px;
+    margin-left: 183px;
+}
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+        margin-bottom: 32px;
+   
+}
+.footer__list{
+    margin-left: 183px;
+
+}
+.footer__item{
+margin-bottom: 8px;
+}
+.footer__link{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 1.48;
+        color: #FFFFFF;
+        text-decoration: none;
+      
+}
+.footer__backend{
+    margin-right: 189px;
+}
+.footer__title{
+    margin-bottom: 1px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.33;
+        color: #FFFFFF;
+}
+.footer__text{
+    margin-bottom: 68px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #FFFFFF;
+}
+.footer__form{
+        display: flex;
+        align-items: flex-end;
+}
+.footer__input{
+    width: 292px;
+    margin-right: 28px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+}
+.footer__button{
+    padding: 18px 69px;
+    border: 1px solid #FFFFFF;
+        border-radius: 0px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.18;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: transparent;
+}
+.footer__social{
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer__copyright{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.64;
+        letter-spacing: 0.10998px;
+        color: #FFFFFF;
+        margin-left: 183px;
+        margin-right: 277px;
+}
+.footer__social-icons{
+    display: flex;
+}
+.footer__social-icons li:not(:last-child){
+    margin-right: 27px;
 }
