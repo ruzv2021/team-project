@@ -150,6 +150,306 @@
   left: 432px;
 }
 
+.advertising {
+  text-align: center;
+  cursor: pointer;
+}
+.advertising__title {
+  margin-top: 120px;
+  width: 729px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+  display: inline-block;
+}
+
+.amazon {
+  text-align: center;
+  padding-top: 90px;
+}
+.amazon__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.15;
+  margin: 0;
+}
+.amazon__icon {
+  margin-top: 21px;
+  margin-bottom: 28px;
+}
+.amazon__link {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.15;
+  color: rgb(64, 64, 64);
+  text-decoration: none;
+}
+.amazon__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(64, 64, 64);
+}
+
+.eero {
+  text-align: center;
+  display: inline-block;
+}
+.eero__text {
+  margin-top: 44px;
+  width: 736px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  color: #404040;
+}
+.eero__button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 104, 255);
+  border: transparent;
+  margin-top: 78px;
+  padding: 21px 37px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #161F49;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-footer {
+  fill: #ffffff;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.02;
+  color: #404040;
+  text-align: center;
+  margin-top: 117px;
+  margin-bottom: 123px;
+}
+
+.love-wifi__info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  color: #999999;
+}
+
+.item::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 25px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #999999;
+  color: #999999;
+}
+
+.love-wifi__item-active::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 25px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2468ff;
+  color: #2468ff;
+}
+
+.love-wifi__nav .link {
+  text-decoration: none;
+  color: #999999;
+  text-align: left;
+}
+
+.love-wifi__nav .link:hover {
+  color: #2468ff;
+  cursor: pointer;
+}
+
+.love-wifi__nav .link:hover .item::after {
+  background-color: #2468ff;
+  color: #2468ff;
+}
+
+.love-wifi__settings {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #404040;
+  text-align: left;
+  margin-right: 88px;
+  margin-bottom: 117px;
+  margin-left: 80px;
+}
+
+.love-wifi__text {
+  font-size: 36px;
+  line-height: 1.44;
+  margin-top: 36px;
+  margin-bottom: 28px;
+}
+
+.love-wifi__family,
+.love-wifi__address {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #646565;
+}
+
+.love-wifi__family {
+  margin-bottom: 14px;
+}
+
+.love-wifi__address {
+  margin-bottom: 30px;
+}
+
+.shop-button {
+  background-color: #2468ff;
+  color: #ffffff;
+  padding: 17px 37px 21px 37px;
+  border-color: transparent;
+  margin-bottom: 94px;
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.02;
+  color: #404040;
+  text-align: center;
+  margin-top: 117px;
+  margin-bottom: 123px;
+}
+
+.experts {
+  text-align: center;
+}
+
+.experts .section-title {
+  margin-bottom: 35px;
+}
+
+.experts__text {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #404040;
+  margin-bottom: 44px;
+}
+
+.help-button {
+  margin-bottom: 94px;
+  background-color: #2468ff;
+  color: #ffffff;
+  padding: 17px 66px 21px 66px;
+  border-color: transparent;
+}
+
+.benefits__list {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  justify-content: center;
+  margin-bottom: 121px;
+}
+
+.benefits__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #404040;
+}
+.benefits__link:hover {
+  color: #2468ff;
+}
+.benefits__link:hover .benefits__icon {
+  fill: #2468ff;
+  stroke: #2468ff;
+}
+
+.benefits__icon {
+  display: inline-block;
+  margin-right: 18px;
+  margin-left: 50px;
+  fill: #404040;
+  stroke: #404040;
+}
+
+.wifi {
+  height: 480px;
+  min-width: 1440px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f7f7f7;
+  background-image: url(../images/children.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wifi__title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  align-items: center;
+  color: #ffffff;
+  margin: 0;
+  padding-top: 111px;
+  padding-right: 422px;
+  padding-left: 422px;
+}
+
+.wifi__button {
+  display: inline-block;
+  background-color: #2468ff;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 17px 37px 21px 37px;
+  border: transparent;
+  margin-top: 83px;
+}
+
 .footer {
   background-color: #161F49;
 }
