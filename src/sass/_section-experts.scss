@@ -1,0 +1,59 @@
+.title {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.02;
+  color: #404040;
+  text-align: center;
+  margin-top: 117px;
+  margin-bottom: 123px;
+}
+.experts {
+  text-align: center;
+}
+.experts .section-title {
+  margin-bottom: 35px;
+}
+.experts__text {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #404040;
+  margin-bottom: 44px;
+}
+.help-button {
+  margin-bottom: 94px;
+  background-color: #2468ff;
+  color: #ffffff;
+  padding: 17px 66px 21px 66px;
+  border-color: transparent;
+}
+.benefits__list {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  justify-content: center;
+  margin-bottom: 121px;
+}
+
+.benefits__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #404040;
+  &:hover {
+    color: #2468ff;
+  }
+  &:hover .benefits__icon {
+    fill: #2468ff;
+    stroke: #2468ff;
+  }
+}
+.benefits__icon {
+  display: inline-block;
+  margin-right: 18px;
+  margin-left: 50px;
+  fill: #404040;
+  stroke: #404040;
+}
